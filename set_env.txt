@@ -1,0 +1,10 @@
+# 建立新環境
+```cmd=
+conda create -n ai-mnist python=3.10
+```
+
+# 啟用環境，安裝所需套件
+```cmd=
+conda activate ai-mnist
+pip install tensorflow matplotlib opencv-python
+```
